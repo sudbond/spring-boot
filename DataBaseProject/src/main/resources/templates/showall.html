@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang ="en" xmlns:th="http://ww.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="2" cellpadding="15" cellspacing="1" style="color:blue">
+
+<tr style="color:red"><th>Username</th> <th>Password</th> <th>D.O.B</th> <th>Gender</th> </tr>
+<tr th:each="user:${users}">
+<td th:text="${user.getUsername}"></td>
+<td th:text="${user.getPassword}"></td>
+<td th:text="${user.getDob}"></td>
+<td th:text="${user.getGender}"></td>
+</table>
+</body>
+</html>

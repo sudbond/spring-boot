@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/login">
+
+username<input type="text" name="username"/><br>
+password<input type="password" name="password"/><br>
+
+<input type = "submit" value = "login">
+<!-- to show the msg on same page we use attribute -->
+<p style="color:red" th:text="${msg}"></p>
+
+</form>
+</body>
+</html>

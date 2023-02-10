@@ -1,0 +1,16 @@
+STS4BootMarkerIndicationColor=56,84,26
+bookmarkIndication=true
+bookmarkIndicationColor=0,255,0
+eclipse.preferences.version=1
+errorIndicationColor=179,26,64
+errorIndicationHighlighting=true
+javaScriptOverrideIndicatorColor=72,113,109
+org.eclipse.cdt.codan.ui.annotation.error.color=241,41,86
+org.eclipse.cdt.codan.ui.annotation.warning.color=254,203,1
+org.eclipse.cdt.ui.overrideIndicatorColor=80,124,121
+overrideIndicatorColorForPHP=72,113,109
+predarkestdark.AbstractTextEditor.Color.Background.SystemDefault=false
+predarkestdark.AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+predarkestdark.AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+warningIndicationColor=156,114,3
+warningIndicationHighlighting=true
